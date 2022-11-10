@@ -13,15 +13,17 @@ public class ModItems {
             "raw_tanzanite",
             new Item(
                     new FabricItemSettings()
-                            .group(ItemGroup.MISC)
+                            //.group(ItemGroup.MISC)
+                            .group(ModItemGroup.TANZANITE)
             )
     );
 
     public static final Item TANZANITE = registerItem(
-            "raw_tanzanite",
+            "tanzanite",
             new Item(
                     new FabricItemSettings()
-                            .group(ItemGroup.MISC)
+                            //.group(ItemGroup.MISC)
+                            .group(ModItemGroup.TANZANITE)
             )
     );
 
