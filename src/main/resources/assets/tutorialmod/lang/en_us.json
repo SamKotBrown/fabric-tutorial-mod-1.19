@@ -1,12 +1,20 @@
 {
   "item.tutorialmod.raw_tanzanite": "Raw Tanzanite",
   "item.tutorialmod.tanzanite": "Tanzanite",
+  "item.tutorialmod.eight_ball": "Eight Ball",
 
   "block.tutorialmod.tanzanite_block": "Block of Tanzanite",
+  "block.tutorialmod.tanzanite_lamp": "Tanzanite Lamp",
   "block.tutorialmod.tanzanite_ore": "Tanzanite Ore",
   "block.tutorialmod.deepslate_tanzanite_ore": "Deepslate Tanzanite Ore",
   "block.tutorialmod.nether_tanzanite_ore": "Netherrack Tanzanite Ore",
   "block.tutorialmod.endstone_tanzanite_ore": "Endstone Tanzanite Ore",
+
+  "block.tutorialmod.jumpy_block": "Jumpy Block",
+
+  "item.tutorialmod.eggplant": "Eggplant",
+  "item.tutorialmod.eggplant_seeds": "Eggplant Seeds",
+  "block.tutorialmod.eggplant_crop": "Eggplant Crop",
 
   "itemGroup.tutorialmod.tanzanite" : "Tanzanite Tutorial Tab"
 }
