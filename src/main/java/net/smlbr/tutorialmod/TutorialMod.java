@@ -1,8 +1,11 @@
 package net.smlbr.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.smlbr.tutorialmod.Painting.ModPaintings;
 import net.smlbr.tutorialmod.block.ModBlocks;
 import net.smlbr.tutorialmod.item.ModItems;
+import net.smlbr.tutorialmod.util.ModLootTableModifiers;
+import net.smlbr.tutorialmod.villager.ModVillagers;
 import net.smlbr.tutorialmod.world.feature.ModConfiguredFeatures;
 import net.smlbr.tutorialmod.world.gen.ModOreGeneration;
 import org.slf4j.Logger;
@@ -20,5 +23,13 @@ public class TutorialMod implements ModInitializer {
 		ModItems.registerModItems();
 
 		ModOreGeneration.GeneratedOres();
+
+		ModVillagers.registerVillagers();
+		ModVillagers.registerTrades();
+
+		ModPaintings.registerPaintings();
+
+		ModLootTableModifiers.modifyLootTables();
+
 	}
 }
